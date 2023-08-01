@@ -6,8 +6,10 @@ from aiogram.types import (
 	InlineKeyboardMarkup, InlineKeyboardButton
 )
 
-import config, hashlib
-from logic import *
+import hashlib
+
+from src import config
+from src.logic import *
 
 
 bot = Bot(config.TOKEN, parse_mode=ParseMode.MARKDOWN_V2)
