@@ -1,4 +1,3 @@
 import os
 
-#TOKEN = os.getenv("CASTLEGAMEBOT_TOKEN")
-TOKEN = "5659623561:AAG_MAsyAJtypeJ0jtk2A6PbXhkdZdqEVNc"
+TOKEN = os.getenv("CASTLEGAMEBOT_TOKEN")
