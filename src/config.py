@@ -2,7 +2,6 @@ import sqlite3 as sql
 import colorama as cl
 import os
 
-
 # colorama init
 cl.init()
 
