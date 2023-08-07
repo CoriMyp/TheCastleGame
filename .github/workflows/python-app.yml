@@ -16,7 +16,7 @@ env:
   token: ${{ secrets.CASTLEGAMEBOT_TOKEN }}
 
 jobs:
-  build:
+  run-bot:
     runs-on: ubuntu-latest
 
     steps:
