@@ -7,8 +7,8 @@ cl.init()
 
 
 # BOT TOKEN
-TOKEN = open('./token.txt', 'r', encoding='utf-8').readline()
-# TOKEN = os.environ['token']
+# TOKEN = open('./token.txt', 'r', encoding='utf-8').readline()
+TOKEN = os.environ['token']
 
 
 # SQL TABLE WITH USER'S SETTINGS (on future)
